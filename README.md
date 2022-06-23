@@ -9,4 +9,26 @@ The RTL problems will be given to me by my mentors with relationships that I've 
 
 Here I'll be using Icarus Verilog to compile my modules, and use cocotb for my verification platform. 
 
+Hardware Used:
+m1 13" macbook pro
+
+Tools used:
+utilities:
+brew install coreutils
+
+icarus:
+brew install bison
+
+echo 'export PATH="/usr/local/opt/bison/bin:$PATH"' >> ~/.bash_profile
+echo 'export PATH="/opt/homebrew/opt/bison/bin:$PATH"' >> ~/.zshrc
+
+git config --global user.name "dkim1235"
+git config --global user.email dkim1235@gmail.com
+
+git clone https://github.com/steveicarus/iverilog.git
+git checkout --track -b v11-branch origin/v11-branch
+
+git clone git://git.sv.gnu.org/autoconf
+brew install temurin
+
 
