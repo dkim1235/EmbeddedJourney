@@ -1,0 +1,19 @@
+installing icarus verilog took a long time.
+I don't know why but i got pigeon holed into installing java but I don't remember why.
+It took 2-3 days of debug and it's because I didn't set the correct JAVA_HOME in my .zshrc.
+
+problem:
+java was compiling with the latest version of java (18), 
+but was running the program in an older version of java(8)
+
+correct JAVA_HOME PATH set:
+export JAVA_HOME=$(/usr/libexec/java_home)
+export PATH=$JAVA_HOME/bin:$PATH
+
+I believe i needed java for autoconf. There was something wrong with how my iverilog was compiling.
+
+now i'm downloading gtkwave as my wave viewer. I didn't realize this is what i needed, but here we are.
+
+iverilog -o csa_adder.vvp csa_adder_tb.sv
+vvp csa_adder.vvp
+

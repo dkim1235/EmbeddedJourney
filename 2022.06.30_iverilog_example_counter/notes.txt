@@ -1,0 +1,5 @@
+In this case here i'm following the iverilog tutorial for getting started.
+This is a simple counter and a simple testbench.
+
+iverilog -o my_design counter_tb.sv counter.sv
+vvp my_design

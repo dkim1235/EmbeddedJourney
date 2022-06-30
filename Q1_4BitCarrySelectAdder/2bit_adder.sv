@@ -6,7 +6,7 @@ module 2bit_adder (
   output [1:0] s
 )
 
-wire adder1_c_out
+wire adder1_c_out;
 
 full_adder full_adder2 (
   .c_in(c_in),
