@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1656723049" />
+    <testcase name="my_second_test" classname="test_my_design_extended" file="/Users/paulkim/Embedded_Systems/EmbeddedJourney/2022.07.01_coctb_quickstart/test_my_design_extended.py" lineno="18" time="0.0008161067962646484" sim_time_ns="6.001" ratio_time="7353.204295647093" />
+  </testsuite>
+</testsuites>

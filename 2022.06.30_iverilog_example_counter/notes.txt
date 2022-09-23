@@ -2,4 +2,6 @@ In this case here i'm following the iverilog tutorial for getting started.
 This is a simple counter and a simple testbench.
 
 iverilog -o my_design counter_tb.sv counter.sv
+iverilog -o my_design -c file_list.txt
+#creates a vcd file for waveforms
 vvp my_design

@@ -1,0 +1,10 @@
+in this example, it took all day to make work. 
+There were multiple installations of anaconda and python in my system. 
+It looks like the latest macos OS monterry for the M1 macbook already has a version of python3 installed (3.8)
+
+I also recall during my gradschool times, I installed a barebones version of anaconda for python and ML courses.
+This is because the M1 chip just came out with ARM64 arch and was not working.
+
+I uninstalled all versions of anaconda in my local area and in homebrew, and i installed it through homebrew because homebrew is a great tool for version control.
+
+
